@@ -22,6 +22,7 @@ class Indexer:
             'searchableAttributes': [
                 'name',
                 'description',
+                'expansions.name'
             ],
             'attributesForFaceting': [
                 'categories',
