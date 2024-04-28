@@ -10,8 +10,8 @@
         }
     },
     "algolia": {
-        "app_id": "VZFFB6F818",
-        "api_key_search_only": "d65d02631e9e2f43c4a9352b871278b4",
+        "app_id": "RNBJE1P5EX",
+        "api_key_search_only": "3da0fe958dc4052a8549d001b90c894b",
         "index_name": "bgg",
         "hits_per_page": 100
     }
