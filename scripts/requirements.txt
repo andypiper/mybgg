@@ -12,7 +12,7 @@ attrs==23.2.0
     #   requests-cache
 cattrs==23.2.3
     # via requests-cache
-certifi==2023.7.22
+certifi==2024.7.4
     # via requests
 charset-normalizer==3.1.0
     # via requests
@@ -38,7 +38,7 @@ typing==3.7.4.3
     # via declxml
 url-normalize==1.4.3
     # via requests-cache
-urllib3==1.26.18
+urllib3==1.26.19
     # via
     #   requests
     #   requests-cache
