@@ -6,16 +6,18 @@
 #
 aiohappyeyeballs==2.4.3
     # via aiohttp
-aiohttp==3.10.10
+aiohttp==3.11.18
     # via algoliasearch
 aiosignal==1.3.1
     # via aiohttp
-algoliasearch==4.8.1
+algoliasearch==4.24.0
     # via -r requirements.in
 annotated-types==0.7.0
     # via pydantic
 async-timeout==5.0.1
-    # via algoliasearch
+    # via
+    #   aiohttp
+    #   algoliasearch
 attrs==23.2.0
     # via
     #   aiohttp
@@ -31,6 +33,8 @@ colorgram-py==1.2.0
     # via -r requirements.in
 declxml==1.1.3
     # via -r requirements.in
+exceptiongroup==1.3.0
+    # via cattrs
 frozenlist==1.5.0
     # via
     #   aiohttp
@@ -48,7 +52,9 @@ pillow==10.3.0
 platformdirs==4.1.0
     # via requests-cache
 propcache==0.2.0
-    # via yarl
+    # via
+    #   aiohttp
+    #   yarl
 pydantic==2.9.2
     # via algoliasearch
 pydantic-core==2.23.4
@@ -69,6 +75,9 @@ typing==3.7.4.3
     # via declxml
 typing-extensions==4.12.2
     # via
+    #   cattrs
+    #   exceptiongroup
+    #   multidict
     #   pydantic
     #   pydantic-core
 url-normalize==1.4.3
